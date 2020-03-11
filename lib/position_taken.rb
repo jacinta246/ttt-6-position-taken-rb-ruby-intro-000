@@ -1,6 +1,6 @@
 def position_taken? (board, index)
- return board[index]==false
- if board[index] == "X" || board[index] == "O"
-   return true
+  if board[index] == "X" || board[index] == "O"
+    return true
+ else board[index]==false
  end
 end
