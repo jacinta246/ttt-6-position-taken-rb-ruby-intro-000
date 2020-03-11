@@ -1,3 +1,3 @@
 def position_taken? (board, index)
- board || ["","","","","","","","",""]
+ board [index]==false
 end
