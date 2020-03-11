@@ -1,4 +1,4 @@
 def position_taken? (board, index)
  return board [index]==false
- return
+ return board ==true
 end
